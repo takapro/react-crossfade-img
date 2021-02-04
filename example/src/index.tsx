@@ -39,6 +39,12 @@ const App = () => {
         <button onClick={() => { fetchDog(setImageUrl) }}>Dog</button>
       </p>
       <CrossfadeImg src={imageUrl} width='640px' height='480px' objectFit='contain' />
+      <p>Credits:</p>
+      <ul>
+        <li>Cat images from <a href="http://random.cat/">random.cat</a></li>
+        <li>Dog images from <a href="https://dog.ceo/">DOG CEO</a></li>
+        <li>Source code at <a href="https://github.com/takapro/react-crossfade-img">react-crossfade-img</a></li>
+      </ul>
     </>
   );
 };
